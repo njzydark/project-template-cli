@@ -7,6 +7,8 @@ const { clear } = require("console");
 
 clear();
 
+require("../lib/utills").checkVersion(10);
+
 console.log(figlet.textSync("Template CLI"));
 console.log(pkg.description);
 console.log();
