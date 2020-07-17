@@ -8,7 +8,8 @@ const { clear } = require("console");
 clear();
 
 console.log(figlet.textSync("Template CLI"));
-console.log(pkg.description + "\n");
+console.log(pkg.description);
+console.log();
 
 program.version(pkg.version, "-v,--version");
 
