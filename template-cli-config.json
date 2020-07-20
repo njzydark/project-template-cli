@@ -1,0 +1,11 @@
+{
+  "npmDependeniesInstall": {
+    "auto": true,
+    "silent": false
+  },
+  "editorOpen": {
+    "name": "vscode",
+    "command": "code",
+    "enable": false
+  }
+}
