@@ -4,8 +4,8 @@
   "remoteTemplates": [
     {
       "owner": "njzydark",
-      "repo": "template-cli",
-      "path": "templates",
+      "repo": "templates",
+      "path": "",
       "type": "github"
     }
   ],
