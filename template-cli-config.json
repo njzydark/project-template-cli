@@ -1,4 +1,14 @@
 {
+  "githubToken": "",
+  "localTemplates": [],
+  "remoteTemplates": [
+    {
+      "owner": "njzydark",
+      "repo": "template-cli",
+      "path": "templates",
+      "type": "github"
+    }
+  ],
   "npmDependeniesInstall": {
     "auto": true,
     "silent": false
