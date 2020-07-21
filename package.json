@@ -8,6 +8,7 @@
   "author": "njzydark",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.19.2",
     "chalk": "^4.1.0",
     "commander": "^5.1.0",
     "figlet": "^1.5.0",
