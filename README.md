@@ -7,10 +7,31 @@ A simple cli to create project from template
 ## Features
 
 - Created according to different project template types
-- Can be created using local templates
-- Npm i will not execute if the node_modules exists
+- Can be created using local templates or remote templates
+- Support download single template folder from Github without git clone whole project
+- Rich custom configuration items
 
-## TODO
+## Install
 
-- [ ] Support remote template
-- [ ] Support add custom templateType and local template
+```bash
+npm i -g template-cli
+```
+
+## Usage
+
+```bash
+template
+```
+
+```text
+Usage: template [options] [command]
+
+Options:
+  -v,--version                   output the version number
+  -h, --help                     display help for command
+
+Commands:
+  init [options] [projectName]   init project from template
+  list [options] [templateType]  list template types or names
+  help [command]                 display help for command
+```
