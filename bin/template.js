@@ -25,9 +25,10 @@ program
   .action(require("../lib/init"));
 
 program
-  .command("list [templateType]")
-  .option("-a,--all", "list all templates")
-  .description("list template types or names")
+  .command("list")
+  .option("-l,--local", "list local templates")
+  .option("-r,--remote", "list remote templates")
+  .description("list all templates")
   .action(require("../lib/list"));
 
 program
