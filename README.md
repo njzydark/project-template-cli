@@ -1,8 +1,8 @@
-# template-cli
+# project-template-cli
 
 A simple cli to create project from template
 
-![template-cli](assets/template-cli.png)
+![template-cli](assets/project-template-cli.png)
 
 ## Features
 
@@ -14,7 +14,7 @@ A simple cli to create project from template
 ## Install
 
 ```bash
-npm i -g template-cli
+npm i -g project-template-cli
 ```
 
 ## Usage

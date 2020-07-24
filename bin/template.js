@@ -11,7 +11,7 @@ clear();
 utils.checkVersion(10);
 utils.initConfig();
 
-console.log(figlet.textSync("Template CLI"));
+console.log(figlet.textSync("Project Template"));
 console.log(pkg.description);
 console.log();
 
