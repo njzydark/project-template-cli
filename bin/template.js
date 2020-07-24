@@ -4,10 +4,12 @@ const pkg = require("../package.json");
 const { program } = require("commander");
 const figlet = require("figlet");
 const { clear } = require("console");
+const utils = require("../lib/utills");
 
 clear();
 
-require("../lib/utills").checkVersion(10);
+utils.checkVersion(10);
+utils.initConfig();
 
 console.log(figlet.textSync("Template CLI"));
 console.log(pkg.description);
@@ -27,5 +29,13 @@ program
   .option("-a,--all", "list all templates")
   .description("list template types or names")
   .action(require("../lib/list"));
+
+program
+  .command("config")
+  .option("-s,--show", "show config in explorer")
+  .option("-o,--open", "open config")
+  .option("-r,--reset", "reset config")
+  .description("operating config")
+  .action(require("../lib/config"));
 
 program.parse(process.argv);
