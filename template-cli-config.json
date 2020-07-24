@@ -11,7 +11,12 @@
   ],
   "npmDependeniesInstall": {
     "auto": true,
-    "silent": false
+    "silent": false,
+    "manager": "npm"
+  },
+  "git": {
+    "init": true,
+    "firstCommit": ""
   },
   "editorOpen": {
     "name": "vscode",
