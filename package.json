@@ -8,14 +8,14 @@
   "author": "njzydark",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.0",
     "chalk": "^4.1.0",
-    "commander": "^6.0.0",
+    "commander": "^6.2.1",
     "figlet": "^1.5.0",
     "fs-extra": "^9.0.1",
     "inquirer": "^7.3.3",
-    "open": "^7.1.0",
-    "ora": "^4.0.5",
+    "open": "^7.3.0",
+    "ora": "^5.1.0",
     "shelljs": "^0.8.4"
   },
   "main": "bin/template.js",
