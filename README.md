@@ -8,7 +8,8 @@ A simple cli to create project from template
 
 - Created according to different project template types
 - Can be created using local templates or remote templates
-- Support download single template folder from Github without git clone whole project
+- Support GitHub and GitLab
+- Support download single template folder without git clone whole project
 - Rich custom configuration items
 
 ## Install
@@ -70,6 +71,7 @@ template config -r
 ```json
 {
   "githubToken": "",
+  "gitlabToken": "",
   "localTemplates": [],
   "remoteTemplates": [
     {
@@ -110,7 +112,9 @@ add `path` item to `localTemplates`, the path must be absolute path
 
 ### remote templates
 
-The following is the [built-in remote template](https://github.com/njzydark/templates), you can remove and custom your own github templates repo
+The following is the [built-in remote template](https://github.com/njzydark/templates), you can remove and custom your own remote templates repo
+
+#### GitHub
 
 the `owner` `repo` `path` is the part of [Github Api](https://docs.github.com/en/rest/reference/repos#get-repository-content)
 
@@ -125,4 +129,21 @@ the `type` must currently be `github`
     "type": "github"
   }
 ],
+```
+
+#### GitLab
+
+the `type` must currently be `gitlab`
+
+```json
+"remoteTemplates": [
+  {
+    "baseUrl": "https://gitlab.com/api/v4",
+    "owner": "",
+    "repo": "",
+    "branch": "master",
+    "path": "",
+    "type": "gitlab"
+  }
+]
 ```
