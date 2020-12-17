@@ -16,6 +16,7 @@
     "inquirer": "^7.3.3",
     "open": "^7.3.0",
     "ora": "^5.1.0",
+    "query-string": "^6.13.7",
     "shelljs": "^0.8.4"
   },
   "main": "bin/template.js",
